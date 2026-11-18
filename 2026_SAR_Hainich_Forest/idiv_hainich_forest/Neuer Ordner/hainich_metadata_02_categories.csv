@@ -1,0 +1,94 @@
+Column_name,Category_value,Category_description,Additional_information,Additional_information_description
+sp,AS,Populus tremula,NA,NA
+sp,BAH,Acer platanoides,NA,NA
+sp,BU,Fagus sylvatica,NA,NA
+sp,BUL,Ulmus glabra,NA,NA
+sp,EB,Sorbus aucuparia,NA,NA
+sp,EI,Quercus spec.,NA,NA
+sp,ES,Fraxinus excelsior,NA,NA
+sp,FAH,Acer campestre,NA,NA
+sp,HBU,Carpinus betulus,NA,NA
+sp,KB,Prunus avium,NA,NA
+sp,LI,Tilia spec.,NA,NA
+sp,PF,Euonymus europaeus,NA,NA
+sp,SAH,Acer platanoides,NA,NA
+sp,WD,Crataegus spec.,NA,NA
+fence_nr,1,fence number 1,112.37,size of fenced area in squaremetres
+fence_nr,2,fence number 2,145.38,size of fenced area in squaremetres
+fence_nr,3,fence number 3,131.59,size of fenced area in squaremetres
+fence_nr,4,fence number 4,146.52,size of fenced area in squaremetres
+fence_nr,5,fence number 5,157.01,size of fenced area in squaremetres
+fence_nr,6,fence number 6,148.23,size of fenced area in squaremetres
+fence_nr,7,fence number 7,154.93,size of fenced area in squaremetres
+fence_nr,8,fence number 8,150.18,size of fenced area in squaremetres
+fence_nr,10,fence number 10,154.23,size of fenced area in squaremetres
+fence_nr,11,fence number 11,140.21,size of fenced area in squaremetres
+fence_nr,12,fence number 12,146.87,size of fenced area in squaremetres
+fence_nr,13,fence number 13,141.17,size of fenced area in squaremetres
+fence_nr,14,fence number 14,138.91,size of fenced area in squaremetres
+fence_nr,16,fence number 16,148.53,size of fenced area in squaremetres
+fence_nr,17,fence number 17,142.41,size of fenced area in squaremetres
+fence_nr,18,fence number 18,147.02,size of fenced area in squaremetres
+fence_nr,19,fence number 19,153.00,size of fenced area in squaremetres
+fence_nr,20,fence number 20,142.42,size of fenced area in squaremetres
+fence_nr,XX,fence number XX,115.11,size of fenced area in squaremetres
+fence_nr,XXI,fence number XXI,148.67,size of fenced area in squaremetres
+status,A,Alive,NA,NA
+status,D,Dead,NA,NA
+status,M,Missing (not found or dropped below dbh threshold),NA,NA
+status,P,Prior (before first inclusion in inventory),NA,NA
+kraft,1,predominating tree,NA,NA
+kraft,2,dominating tree,NA,NA
+kraft,3,co-dominating tree,NA,NA
+kraft,4,dominated tree,NA,NA
+kraft,5,fully suppressed tree,NA,NA
+vitalilty,1,vital,NA,NA
+vitalilty,2,normal ,NA,NA
+vitalilty,3,stunted,NA,NA
+coverage,y,covered by other crowns,NA,NA
+coverage,n,not covered by other crowns,NA,NA
+coverage,p,partially covered by other crowns,NA,NA
+damage,BNK,leaf and needle eating insects,NA,NA
+damage,BRKPILZ,fungi damage (Kretzschmaria deusta),NA,NA
+damage,FAU,tree rot,NA,NA
+damage,FEGE,fraying damage,NA,NA
+damage,FUR,all kind of bark damages (e.g. by former forestal impacts / by tree neighbours),NA,NA
+damage,HAL,fungi damage (Armillaria),NA,NA
+damage,HOEHLUNG,cavity in stem or stem base,NA,NA
+damage,HRZ,resin production,NA,NA
+damage,KON,fungi damage (Fomes and similar),NA,NA
+damage,RBI,under the bark breeding insects,NA,NA
+damage,SCHM,stem fracture in middle third,NA,NA
+damage,SCHU,stem fracture in lower third,NA,NA
+damage,SFBN,slime flux and/or bark necrosis,NA,NA
+damage,SFR,damages by snow/frost/ice,NA,NA
+damage,SLG,bark stripping damage,NA,NA
+damage,SNE,fungi damage (Nectria),NA,NA
+damage,SON,other damages,NA,NA
+damage,PILZ,other fungi damage,NA,NA
+damage,TRO,damages by dryness,NA,NA
+damage,UL,fungi damage (Ophiostoma),NA,NA
+damage,ULP,gall mit and gall midge on elm tree,NA,NA
+damage,VERBISS,browsing damage,NA,NA
+damage,WKB,broken crown and big branches,NA,NA
+damage,ZTR,dryness of tree top,NA,NA
+damage,ZWI,twin (bifurcated stem with bifurcation above breast height),NA,NA
+mort_reason,KW,broken crown caused by storm,NA,NA
+mort_reason,KF,broken crown caused by fungal rot,NA,NA
+mort_reason,SW,broken stem caused by storm,NA,NA
+mort_reason,SF,broken stem caused by fungal rot,NA,NA
+mort_reason,FF,broken stem base caused by fungal rot,NA,NA
+mort_reason,E,uprooted by storm,NA,NA
+mort_reason,U,pulled down by other tree,NA,NA
+mort_reason,KO,competition,NA,NA
+mort_reason,A,other,NA,NA
+dead_type,1,standing dead tree with crown,NA,NA
+dead_type,2,standing dead tree without crown,NA,NA
+dead_type,3,grounded dead tree with crown and root plate,NA,NA
+dead_type,4,grounded dead tree without crown,NA,NA
+dead_type,5,small/thin dead tree,NA,NA
+decay,1,recently died,NA,NA
+decay,2,starting decomposition,NA,NA
+decay,3,advanced decomposition,NA,NA
+decay,4,strongly decomposed,NA,NA
+problem,Inconsistent status,Illogical status changes throughout inventories,NA,NA

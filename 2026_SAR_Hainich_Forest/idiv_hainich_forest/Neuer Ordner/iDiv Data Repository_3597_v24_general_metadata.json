@@ -1,0 +1,49 @@
+﻿{
+  "downloadInformation": {
+    "downloadSource": "idata.idiv.de",
+    "downloadDate": "11/18/2026 12:07:19 PM",
+    "downloadedBy": "ANONYMOUS",
+    "downloadedFilter": null
+  },
+  "id": 3597,
+  "version": 24,
+  "versionId": 7108,
+  "title": "Forest inventory data from four censuses (1999-2023) at a large-scale forest monitoring plot in an unmanaged beech forest at Hainich National Park, Thuringia, Germany",
+  "description": "The dataset contains forest inventory data from four censuses (1999, 2007, 2013, 2023) at a single 27.624 ha plot in a beech-dominated forest that has been unmanaged since 1965 at Hainich National Park. The location and diameter at breast height (dbh) of all living trees with a dbh >= 1 cm  was measured. Additional information on the social status, vitality, coverage by other trees and damages are available for living trees. For trees that have died since the last census, information on the mortality reason, decay and integrity of the stem are available.",
+  "dataStructureId": 0,
+  "metadataStructureId": 14,
+  "entityTemplateId": 1,
+  "isPublic": true,
+  "publicationDate": "4/23/2026 2:12:27 PM",
+  "additionalInformations": {
+    "author": "Markus E. Schorn,Jürgen Bauhus,Christian Wirth,Nadja Rüger",
+    "description": "The dataset contains forest inventory data from four censuses (1999, 2007, 2013, 2023) at a single 27.624 ha plot in a beech-dominated forest that has been unmanaged since 1965 at Hainich National Park. The location and diameter at breast height (dbh) of all living trees with a dbh >= 1 cm  was measured. Additional information on the social status, vitality, coverage by other trees and damages are available for living trees. For trees that have died since the last census, information on the mortality reason, decay and integrity of the stem are available.",
+    "title": "Forest inventory data from four censuses (1999-2023) at a large-scale forest monitoring plot in an unmanaged beech forest at Hainich National Park, Thuringia, Germany",
+    "email": "markus.schorn@idiv.de,juergen.bauhus@waldbau.uni-freiburg.de,cwirth@uni-leipzig.de,nadja.rueger@uni-leipzig.de",
+    "subject": "forest inventory data, beech forest, forest reserve"
+  },
+  "parties": {},
+  "versionDate": "4/23/2026 12:03:17 PM",
+  "names": {
+    "markus E. Schorn": {
+      "givenName": "Markus E.",
+      "familyName": "Schorn"
+    },
+    "jürgen Bauhus": {
+      "givenName": "Jürgen",
+      "familyName": "Bauhus"
+    },
+    "christian Wirth": {
+      "givenName": "Christian",
+      "familyName": "Wirth"
+    },
+    "nadja Rüger": {
+      "givenName": "Nadja",
+      "familyName": "Rüger"
+    }
+  },
+  "links": {
+    "from": [],
+    "to": []
+  }
+}

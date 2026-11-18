@@ -1,0 +1,12 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>VH</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">-19.967132709701</MDI>
+      <MDI key="STATISTICS_MAXIMUM">-11.687761266205</MDI>
+      <MDI key="STATISTICS_MEAN">-15.631677717164</MDI>
+      <MDI key="STATISTICS_STDDEV">0.91379860647664</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">78.14</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

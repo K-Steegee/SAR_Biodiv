@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mstns:Metadata xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <mstns:Data_Provider_Contact_Details>
+    <mstns:Name>Markus E. Schorn</mstns:Name>
+    <mstns:Email>markus.schorn@idiv.de</mstns:Email>
+    <mstns:Role>
+      <mstns:Data_Creator>false</mstns:Data_Creator>
+      <mstns:Data_Manager>true</mstns:Data_Manager>
+    </mstns:Role>
+    <mstns:Affiliation>German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig / Leipzig University</mstns:Affiliation>
+    <mstns:Country>Germany</mstns:Country>
+    <mstns:Research_Group>
+      <mstns:Research_Group>Biodiversity Economics</mstns:Research_Group>
+    </mstns:Research_Group>
+  </mstns:Data_Provider_Contact_Details>
+  <mstns:Dataset>
+    <mstns:Project_or_Workshop_or_Thesis_Title>Huss-Fläche Inventurdaten</mstns:Project_or_Workshop_or_Thesis_Title>
+    <mstns:Dataset_Title>Forest inventory data from four censuses (1999-2023) at a large-scale forest monitoring plot in an unmanaged beech forest at Hainich National Park, Thuringia, Germany</mstns:Dataset_Title>
+    <mstns:Short_Abstract>The dataset contains forest inventory data from four censuses (1999, 2007, 2013, 2023) at a single 27.624 ha plot in a beech-dominated forest that has been unmanaged since 1965 at Hainich National Park. The location and diameter at breast height (dbh) of all living trees with a dbh &gt;= 1 cm  was measured. Additional information on the social status, vitality, coverage by other trees and damages are available for living trees. For trees that have died since the last census, information on the mortality reason, decay and integrity of the stem are available.</mstns:Short_Abstract>
+    <mstns:Keywords>forest inventory data, beech forest, forest reserve</mstns:Keywords>
+    <mstns:Data_Access_Policy>Open (CC BY 4.0)</mstns:Data_Access_Policy>
+    <mstns:Extensive_Description_Of_The_Dataset>The dataset contains information on 17,438 individual stems from 14 woody species that were alive and larger than the dbh threshold in at least one of the four inventories. Stems have a tag with an identification number that is unique across all inventories. 
+Information on the vitality, coverage by other tree crowns and visible damages was only recorded in the inventories 2007, 2013, and 2023. Information on the decay stage of dead trees was only recorded in 2007 and 2013. All other variables mentioned above were recorded across all inventories. 
+
+The variable 'kraft' refers to the sociological class according to Kraft (1884). The decay stage and type of dead tree are classified according to Mueller-Using &amp; Bartsch (2008). 
+
+In 2013 and 2023, field work was carried out after the vegetative period, in the winter 2013/2014 and the spring 2024, respectively.
+
+The data ("hainich_inventory.csv") is organised in a single CSV file and presented in a long, "ForestGEO-like" format (Anderson-Teixeira et al. 2015). This means, each stem is represented by one row in each inventory. It is accompanied by two metadata files (also CSV files, "hainich_metadata_01_column_definítion.csv" and "hainich_metadata_02_categories.csv"). 
+
+For 1999, 2007, and 2013, we additionally provide data from the southern edge of the plot (0.577 ha), which was cut off in the 2023 inventory. This particular data ("hainich_remeasured_subplots_2023.csv") is intended solely for the replication of previous studies. We recommend against using it for future research. 
+
+In the 2023 inventory, some subplots were measured twice in order to determine the measurement error. We provide data from the second measurements ("hainich_remeasured_subplots_2023.csv"). However, there is no special need to include this additional dataset in future research. 
+
+All files are UFT-8 encoded and missing values are encoded with "NA".
+
+References: 
+Anderson-Teixeira, K. J. et al. (2015): CTFS-ForestGEO: a worldwide network monitoring forests in an era of global change. Global Change Biology 21, 528–549.
+Kraft, G. (1884): Beiträge zur Lehre von den Durchforstungen, Schlagstellungen und Lichtungshieben (Klindworth, Hannover).
+Mueller-Using, S. &amp; Bartsch, N. (2003): Totholzdynamik eines Buchenbestandes (Fagus sylvatica L.) im Solling. Nachlieferung, Ursache und Zersetzung von Totholz. Allgemeine Forst- und Jagdzeitschrift 174, 122–130.</mstns:Extensive_Description_Of_The_Dataset>
+    <mstns:Data_Origin>Field Survey</mstns:Data_Origin>
+    <mstns:Status_Of_The_Data_Collection>Completed</mstns:Status_Of_The_Data_Collection>
+  </mstns:Dataset>
+  <mstns:Persons_Associated_With_Dataset>
+    <mstns:Name>Jürgen Bauhus</mstns:Name>
+    <mstns:Email>juergen.bauhus@waldbau.uni-freiburg.de</mstns:Email>
+    <mstns:Role>
+      <mstns:Data_Creator>true</mstns:Data_Creator>
+      <mstns:Data_Manager>false</mstns:Data_Manager>
+      <mstns:Data_Owner>true</mstns:Data_Owner>
+      <mstns:Primary_Contact>false</mstns:Primary_Contact>
+    </mstns:Role>
+    <mstns:Affiliation>Freiburg University</mstns:Affiliation>
+    <mstns:Country>Germany</mstns:Country>
+  </mstns:Persons_Associated_With_Dataset>
+  <mstns:Persons_Associated_With_Dataset>
+    <mstns:Name>Christian Wirth</mstns:Name>
+    <mstns:Email>cwirth@uni-leipzig.de</mstns:Email>
+    <mstns:Role>
+      <mstns:Data_Creator>true</mstns:Data_Creator>
+      <mstns:Data_Owner>true</mstns:Data_Owner>
+    </mstns:Role>
+    <mstns:Affiliation>German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig / Leipzig University</mstns:Affiliation>
+    <mstns:Country>Germany</mstns:Country>
+    <mstns:Research_Group>
+      <mstns:Research_Group>iDiv Member</mstns:Research_Group>
+      <mstns:Other-Specify>Institute of Systematic Botany and Functional Biodiversity</mstns:Other-Specify>
+    </mstns:Research_Group>
+  </mstns:Persons_Associated_With_Dataset>
+  <mstns:Persons_Associated_With_Dataset>
+    <mstns:Name>Nadja Rüger</mstns:Name>
+    <mstns:Email>nadja.rueger@uni-leipzig.de</mstns:Email>
+    <mstns:Role>
+      <mstns:Data_Creator>true</mstns:Data_Creator>
+      <mstns:Data_Manager>true</mstns:Data_Manager>
+      <mstns:Data_Owner>true</mstns:Data_Owner>
+      <mstns:Primary_Contact>true</mstns:Primary_Contact>
+    </mstns:Role>
+    <mstns:Affiliation>German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig / Leipzig University</mstns:Affiliation>
+    <mstns:Country>Germany</mstns:Country>
+    <mstns:Research_Group>
+      <mstns:Research_Group>Biodiversity Economics</mstns:Research_Group>
+    </mstns:Research_Group>
+  </mstns:Persons_Associated_With_Dataset>
+  <mstns:Habitat>
+    <mstns:Terrestrial>true</mstns:Terrestrial>
+  </mstns:Habitat>
+  <mstns:Taxonomic_Scope>
+    <mstns:Plantae>true</mstns:Plantae>
+  </mstns:Taxonomic_Scope>
+  <mstns:Temporal_Cover>
+    <mstns:Date_of_first_Record>
+      <mstns:Year>1999</mstns:Year>
+      <mstns:Month>September</mstns:Month>
+    </mstns:Date_of_first_Record>
+    <mstns:Date_of_last_Record>
+      <mstns:Year>2023</mstns:Year>
+      <mstns:Month>May</mstns:Month>
+    </mstns:Date_of_last_Record>
+  </mstns:Temporal_Cover>
+  <mstns:Spatial_Cover>
+    <mstns:Coverage>Local</mstns:Coverage>
+    <mstns:Locality_Names>Hainich National Park, Thuringia</mstns:Locality_Names>
+    <mstns:Country>Germany</mstns:Country>
+  </mstns:Spatial_Cover>
+  <mstns:Additional_Information>
+    <mstns:How_To_Cite_Dataset>Schorn, M. E., Bauhus, J., Wirth, C., &amp; Rüger, N. (2026). Forest inventory data from four censuses (1999-2023) at a large-scale forest monitoring plot in an unmanaged beech forest at Hainich National Park, Thuringia, Germany (Version 1.0) [Dataset]. German Centre for Integrative Biodiversity Research. https://doi.org/10.25829/idiv.3597-5sy386</mstns:How_To_Cite_Dataset>
+    <mstns:Dataset_DOI_or_URL>https://doi.org/10.25829/idiv.3597-5sy386</mstns:Dataset_DOI_or_URL>
+  </mstns:Additional_Information>
+</mstns:Metadata>

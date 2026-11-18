@@ -1,0 +1,25 @@
+Column_name,Column_definition,Data_type,Unit
+plot_id,Name of the 50x50m subplot. Subplots are oriented along the main cardinal directions. ,string,NA
+stem_id,Unique and consistent stem id,integer,NA
+sp,Species code,string,NA
+easting_m,Easting of the tree coordinate. Reference system EPSG 31468,float,m
+northing_m,Northing of the tree coordinate. Reference system EPSG 31468,float,m
+gx,Easting of the tree coordinate relative to the south-western edge of the plot. Calculated from easting_m.,float,m
+gy,Northing of the tree coordinate relative to the south-western edge of the plot. Calculated from northing_m.,float,m
+inside_fence,Information whether the tree is/was in a (formerly) fenced area (1) or not (0). See readme.md for information on fences. ,boolean,NA
+fence_nr,Number/name of the fenced area the tree is part of,string,NA
+census_year,Year of the forest inventory,integer,NA
+dbh,Diameter at breast height (1.3m) or at pom in centimeters,float,cm
+dbh_estimated,Dbh measured (0) or estimated (1). NA if dbh is NA,boolean,NA
+status,Life status. A for living trees; D for dead trees; M for trees that could not be found or - in 2023 - were too small for inclusion in the inventory; and P for trees prior to their first inclusion in an inventory,string,NA
+kraft,Sociological tree class according to G. Kraft,integer,NA
+vitality,Vitality of the tree in 3 categories,integer,NA
+coverage,Coverage by other crowns in 3 categories. NA if dbh is NA or estimated,string,NA
+damage,Recorded damages on trees,string,NA
+pom,Point (i.e. height) of measurement. 1.3m if NA,float,m
+mort_reason,Cause of death,string,NA
+dead_type,Type of the dead tree according to Mueller-Using et al 2003,integer,NA
+decay,Decay class of the dead tree according to Mueller-Using et al 2003,integer,NA
+comment,Raw comments/remarks as written by the data collector,string,NA
+date,Date of the observation in format yyyy-mm-dd,date,NA
+problem,Potential problems with the observation/tree,string,NA
